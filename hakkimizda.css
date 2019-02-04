@@ -1,0 +1,108 @@
+/*body
+{
+  margin-top: 100px;
+  text-align: center;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  background: linear-gradient(45deg,rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)), url(resimler/arkaplanekip.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+*/
+header
+{
+  background: linear-gradient(45deg,rgba(0, 4, 40, 1),rgba(0, 78, 146, 1));
+}
+.hakkimizda {
+  position: absolute;
+  top: 50px;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  height: 90vh;
+  background: #ccc;
+  margin: 0;
+  padding: 0;
+}
+
+.hakkimizda li {
+  list-style: none;
+  position: relative;
+  width: 20%;
+  height: 100%;
+  border-right: 1px solid #000;
+  float: left;
+  box-sizing: border-box;
+  transition: 0.5s;
+  text-align: center;
+  overflow: hidden;
+}
+.hakkimizda li:nth-child(1){
+  background: url(resimler/egewithcomputer.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.hakkimizda li:nth-child(3){
+  background: url(resimler/mbnetworkreklam.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.hakkimizda li:nth-child(2){
+  background: url(resimler/komunite.png);
+  background-size: cover;
+  background-position: center;
+}
+.hakkimizda li:nth-child(4){
+  background: url(resimler/arkaplanekip.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.hakkimizda li:nth-child(5){
+  background: url(resimler/arkaplan5.png);
+  background-size: cover;
+  background-position: center;
+}
+.hakkimizda:hover li {
+  width: 10%;
+}
+
+.hakkimizda li:hover {
+  width: 60%;
+}
+
+.hakkimizda li .konu {
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0,.8);
+  box-sizing: border-box;
+  color: #fff;
+  opacity: 0;
+}
+.hakkimizda li:hover .konu {
+  bottom: 0;
+  transition: 0.2s;
+  transition-delay: 0.5s;
+  opacity: 1;
+}
+.hakkimizda li .konubaslik {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0,.8);
+  box-sizing: border-box;
+  color: #fff;
+  opacity: 0;
+}
+.hakkimizda li:hover .konubaslik {
+  display: none;
+  transition: 0.2s;
+  transition-delay: 0.5s;
+  opacity: 1;
+}

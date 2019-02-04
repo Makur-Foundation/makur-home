@@ -1,0 +1,266 @@
+
+header
+{
+  z-index: 10;
+  position:fixed;
+  top: 0;
+  left:0;
+  padding: 0 100px;
+  background: linear-gradient(45deg,rgba(0, 4, 40, 0.9),rgba(0, 78, 146, 0.9));
+  width: 100%;
+  box-sizing: border-box;
+}
+header .logo
+{
+  height: 51px;
+  line-height: 51px;
+  float: left;
+}
+header nav
+{
+  float:right;
+}
+header nav ul
+{
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+header nav ul li
+{
+  list-style: none;
+  color: #fff;
+  font-weight: 1000;
+
+}
+header nav ul li a
+{
+  height: 50px;
+  line-height: 50px;
+  padding: 0 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu-toggle
+{
+    color: #fff;
+    padding: 20px 20px;
+    float: right;
+    line-height: 70px;
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+}
+@media (max-width: 991px)
+{
+    header
+    {
+      padding: 0 20px;
+    }
+     header .logo
+    {
+      padding-top: 6px;
+    }
+    .menu-toggle
+    {
+      display: block;
+    }
+    header nav
+    {
+
+      position: fixed;
+      width: 100%;
+      height: calc(100vb - 50px);
+      background: linear-gradient(45deg,rgba(0, 4, 40, 0.9),rgba(0, 78, 146, 0.9));
+      top: 65px;
+      Left: -100%;
+      transition: 0,5s;
+
+    }
+    header nav.active
+    {
+      Left: 0;
+    }
+    header nav ul
+    {
+      display: block;
+      text-align: center;
+
+    }
+
+}
+
+a.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background: linear-gradient(45deg,rgba(0, 4, 40, 0.9),rgba(0, 78, 146, 0.9));
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    width: 150px;
+    font-size: 18px;
+    margin: 20px 20px;
+
+}
+
+a.button:hover {
+  background: linear-gradient(#004e92, #000428);
+  font-size: 20px;
+}
+a.1buton {
+    text-decoration: none;
+    font-size: 22px;
+    color: #FF8000;
+}
+button:hover, header ul li:hover {
+    opacity: 0.7;
+}
+h1 {
+  font-weight: 1000;
+  text-align: center;
+  background: -webkit-linear-gradient(#000428, #004e92);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.wrapper{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  padding: 0 20px;
+}
+
+.contact-form{
+  display: flex;
+  max-width: 550px;
+  margin: 0 auto;
+  /*background: rgba(0,0,0,0.8);*/
+  padding: 30px;
+  border-radius: 5px;
+  /*box-shadow: 0 0 10px rgba(0,0,0,0.3);*/
+}
+
+.input-fields{
+  display: flex;
+  flex-direction: column;
+  margin-right: 4%;
+}
+
+.input-fields,
+.msg{
+  width: 48%;
+}
+
+.input-fields .input,
+.msg textarea{
+  margin: 10px 0;
+  background: transparent;
+  border: 0px;
+  border-bottom: 2px solid #ffffff;
+  padding: 10px;
+  color: #ffffff;
+  width: 100%;
+}
+
+.msg textarea{
+  height: 212px;
+}
+
+::-webkit-input-placeholder {
+
+  color: #ffffff;
+}
+::-moz-placeholder {
+
+  color: #ffffff;
+}
+:-ms-input-placeholder {
+
+  color: #ffffff;
+}
+
+.btn {
+    background: linear-gradient(45deg,rgba(0, 4, 40, 0.9),rgba(0, 78, 146, 0.9));;
+    text-align: center;
+    font-weight: 1000;
+    padding: 15px;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+}
+.btn:hover {
+    background: linear-gradient(#004e92, #000428);
+    font-size: 23px;
+}
+
+@media screen and (max-width: 600px){
+  .contact-form{
+    flex-direction: column;
+  }
+  .msg textarea{
+    height: 80px;
+  }
+  .input-fields,
+  .msg{
+    width: 80%;
+  }
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background:  linear-gradient(45deg,rgba(0, 4, 40, 0.9),rgba(0, 78, 146, 0.9));
+    color: white;
+    text-align: center;
+}
+.footer-copyright{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+.footer-copyright p{
+  margin: 10px 10px;
+  padding-bottom: 5px;
+  text-align: center;
+  font-weight: bold;
+  display: none;
+}
+
+.footer-sosyal-ikon {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.footer-sosyal-ikon ul{
+    margin: 0px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+.footer-sosyal-ikon ul li{
+  display: inline-block;
+  width: 50px;
+  height: 10px;
+  margin: 10px 10px;
+}
+.footer-sosyal-ikon ul li a{
+  font-size: 27px;
+  color: white;
+}
+@media (min-width: 825px) {
+  .footer-sosyal-ikon ul{
+    float: right;
+  }
+  .footer-copyright p{
+    display: block;
+    float: left;
+  }
+}
