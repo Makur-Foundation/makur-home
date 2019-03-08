@@ -52,7 +52,7 @@ header nav ul li a
     cursor: pointer;
     display: none;
 }
-@media (max-width: 991px)
+@media (max-width: 1050px)
 {
     header
     {
