@@ -134,7 +134,7 @@ a.1buton {
 button:hover, header ul li:hover {
     opacity: 0.7;
 }
-#text {
+.hos {
   font-size: 60px;
   font-weight: 1000;
   text-align: center;
@@ -151,7 +151,7 @@ h3 {
 }
 @media (max-width: 560px)
 {
-  #text {
+  .hos {
     font-size: 40px;
   }
   h3 {
