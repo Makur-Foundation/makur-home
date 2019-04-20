@@ -1,95 +1,191 @@
-.pure-material-button-outlined {
-    position: relative;
-    display: inline-block;
-    box-sizing: border-box;
-    border: solid 1px;
-    border-color: rgba(var(--pure-material-onsurface-rgb, 0, 0, 0), 0.24);
-    border-radius: 4px;
-    padding: 0 16px;
-    min-width: 64px;
-    height: 50px;
-    vertical-align: middle;
-    text-align: center;
-    text-overflow: ellipsis;
-    text-transform: uppercase;
-    color: #FFFF;
-    background-color: transparent;
-    font-family: var(--pure-material-font, "Roboto", "Segoe UI", BlinkMacSystemFont, system-ui, -apple-system);
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 34px;
-    overflow: hidden;
-    outline: none;
-    cursor: pointer;
+body {
+	font-family: 'raleway', sans-serif;
+	background: #0b0b0b;
 }
 
-.pure-material-button-outlined::-moz-focus-inner {
-    border: none;
+.conatiner {
+	width: 100%;
+	height: 500px;
+}
+.wrap {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
 }
 
-/* Overlay */
-.pure-material-button-outlined::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    background-color: currentColor;
-    opacity: 0;
-    transition: opacity 0.2s;
+.box {
+	margin: 10px;
+	width: 300px;
+	height: 490px;
+	text-align: center;
+	border-radius: 3px;
+	-webkit-transition: 200ms ease-in-out;
+	-o-transition: 200ms ease-in-out;
+	transition: 200ms ease-in-out;
+	-webkit-box-shadow: 0 0 15px rgba(0,0,0,0.3);
+	        box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+.box:hover {
+	margin-bottom: -10px;
+	-webkit-box-shadow: 0 0 5px rgba(0,0,0,0.7);
+	        box-shadow: 0 0 5px rgba(0,0,0,0.7);
+}
+.box h2 {
+	color: #fff;
+	padding: 30px;
+	margin-top: 100px;
+	text-align: center;
+	font-weight: 100;
+	font-size: 25px;
+	background: rgba(0,0,0,0.8);
+	-webkit-box-shadow: 0 0 30px rgba(0,0,0,0.7);
+	        box-shadow: 0 0 30px rgba(0,0,0,0.8);
 }
 
-/* Ripple */
-.pure-material-button-outlined::after {
-    content: "";
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    border-radius: 50%;
-    padding: 50%;
-    width: 32px;
-    height: 32px;
-    background-color: currentColor;
-    opacity: 0;
-    transform: translate(-50%, -50%) scale(1) ;
-    transition: opacity 1s, transform 0.5s;
+.date h4 {
+	color: #fff;
+	font-weight: 300;
+	text-align: center;
+	letter-spacing: 3px;
+	text-shadow: 0 0 3px rgba(0,0,0,0.9);
+}
+.poster {
+	width: 130px;
+	height:130px;
+	margin: 120px auto;
+	position: relative;
+	border-radius: 100px;
+}
+.poster h4 {
+	top: 16px;
+	color: #fff;
+	position: relative;
+	font-size: 80px;
+	text-align: center;
+	font-weight: 100;
+}
+.one {
+	background: url('resimler/raspberrypiserver.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 
-/* Hover, Focus */
-.pure-material-button-outlined:hover::before {
-    opacity: 0.04;
+.two {
+	background: url('resimler/linuxterminal.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.three {
+	background: url('resimler/frchilal.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 
-.pure-material-button-outlined:focus::before {
-    opacity: 0.12;
+.five {
+	background: url('resimler/merkurosfootage.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.six {
+	background: url('https://source.unsplash.com/660x630');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.seven {
+	background: url('https://source.unsplash.com/700x770');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.eight {
+	background: url('https://source.unsplash.com/880x820');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.nine {
+	background: url('https://source.unsplash.com/898x820');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.ten {
+	background: url('https://source.unsplash.com/8998x920');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.eleven {
+	background: url('https://source.unsplash.com/898x960');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 
-.pure-material-button-outlined:hover:focus::before {
-    opacity: 0.16;
+.tlv {
+	background: url('https://source.unsplash.com/999x888');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 
-/* Active */
-.pure-material-button-outlined:active::after {
-    opacity: 0.16;
-    transform: translate(-50%, -50%) scale(0);
-    transition: transform 0s;
+.thirteen {
+	background: url('https://source.unsplash.com/1000x777');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 
-/* Disabled */
-.pure-material-button-outlined:disabled {
-    color: rgba(var(--pure-material-onsurface-rgb, 0, 0, 0), 0.38);
-    background-color: transparent;
-    cursor: initial;
+.ftn {
+	background: url('https://source.unsplash.com/2000x777');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 
-.pure-material-button-outlined:disabled::before {
-    opacity: 0;
+.fith {
+	background: url('https://source.unsplash.com/2000x1000');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.sith {
+	background: url('https://source.unsplash.com/3000x1000');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 
-.pure-material-button-outlined:disabled::after {
-    opacity: 0;
+.sevth {
+	background: url('https://source.unsplash.com/9000x9000');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
-.baslik{
-  color: white;
+
+/* POSTER*/
+.p1 {
+	background: linear-gradient(45deg,rgba(0, 4, 40, 0.9),rgba(0, 78, 146, 0.9));
+}
+
+.portalsimge {
+	width: 100px;
+	height: 100%;
 }
