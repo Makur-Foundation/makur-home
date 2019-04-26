@@ -45,23 +45,23 @@ header
   background-size: cover;
   background-position: center;
 }
-.hakkimizda li:nth-child(3){
+.hakkimizda li:nth-child(4){
   background: url(resimler/mbnetworkreklam.jpg);
   background-size: cover;
   background-position: center;
 }
 .hakkimizda li:nth-child(2){
-  background: url(resimler/komunite.png);
+  background: url(resimler/makerbirligitopluluk.jpeg);
   background-size: cover;
   background-position: center;
 }
-.hakkimizda li:nth-child(4){
+.hakkimizda li:nth-child(3){
   background: url(resimler/arkaplanekip.jpg);
   background-size: cover;
   background-position: center;
 }
 .hakkimizda li:nth-child(5){
-  background: url(resimler/arkaplan5.png);
+  background: url(resimler/merkuros.jpeg);
   background-size: cover;
   background-position: center;
 }
