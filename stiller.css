@@ -99,13 +99,14 @@ a.button {
     color: white;
     background: linear-gradient(45deg,rgba(0, 4, 40, 0.9),rgba(0, 78, 146, 0.9));
     border-radius: 8px;
-    text-align: center;
+    text-align: left;
     cursor: pointer;
     font-weight: bold;
     text-decoration: none;
     width: 150px;
     font-size: 18px;
     margin: 20px 20px;
+    float: left;
 
 }
 
@@ -121,12 +122,18 @@ a.1buton {
 button:hover, header ul li:hover {
     opacity: 0.7;
 }
-h1 {
+.mo {
+  font-size: 40px;
   font-weight: 1000;
-  text-align: center;
-  background: -webkit-linear-gradient(#000428, #004e92);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  text-align: left;
+  margin-left: 25px;
+  color: white;
+}
+.mo1 {
+  font-size: 20px;
+  text-align: left;
+  margin-left: 25px;
+  color: white;
 }
 .wrapper{
   position: absolute;
