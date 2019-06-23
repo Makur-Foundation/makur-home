@@ -1,3 +1,16 @@
+body
+{
+  margin-top: 100px;
+  text-align: center;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  background: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
 
 header
 {
@@ -6,7 +19,7 @@ header
   top: 0;
   left:0;
   padding: 0 100px;
-  background: linear-gradient(45deg,rgba(0, 4, 40, 0.9),rgba(0, 78, 146, 0.9));
+  background: linear-gradient(45deg,rgba(255,29,17,0.9),rgba(255,162,6,0.9));
   width: 100%;
   box-sizing: border-box;
 }
@@ -72,7 +85,7 @@ header nav ul li a
       position: fixed;
       width: 100%;
       height: calc(100vb - 50px);
-      background: linear-gradient(45deg,rgba(0, 4, 40, 0.9),rgba(0, 78, 146, 0.9));
+      background: linear-gradient(45deg,rgba(255,29,17,0.9),rgba(255,162,6,0.9));
       top: 65px;
       Left: -100%;
       transition: 0,5s;
@@ -92,35 +105,41 @@ header nav ul li a
 }
 
 a.button {
-    border: none;
+    border-color: #ff4d0d;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 22px;
     outline: 0;
     display: inline-block;
     padding: 8px;
-    color: white;
-    background: linear-gradient(45deg,rgba(0, 4, 40, 0.9),rgba(0, 78, 146, 0.9));
+    color: #ff4d0d;
+    background: none;
     border-radius: 8px;
-    text-align: left;
+    text-align: center;
     cursor: pointer;
     font-weight: bold;
     text-decoration: none;
     width: 150px;
     font-size: 18px;
     margin: 20px 20px;
-    float: left;
 
 }
 
 a.button:hover {
-  background: linear-gradient(#004e92, #000428);
   font-size: 20px;
+  color: black;
+  background: linear-gradient(45deg,rgba(255,29,17,0.9),rgba(255,162,6,0.9));
+  border: none;
+  transition: all 0.2s linear;
 }
 a.1buton {
     text-decoration: none;
     font-size: 22px;
     color: #FF8000;
 }
-button:hover, header ul li:hover {
-    opacity: 0.7;
+button:hover, header ul li a:hover {
+  color: black;
+  transition: all 0.2s linear;
 }
 .mo {
   font-size: 40px;
@@ -193,7 +212,7 @@ button:hover, header ul li:hover {
 }
 
 .btn {
-    background: linear-gradient(45deg,rgba(0, 4, 40, 0.9),rgba(0, 78, 146, 0.9));;
+    background: linear-gradient(45deg,rgba(255,29,17,0.9),rgba(255,162,6,0.9));;
     text-align: center;
     font-weight: 1000;
     padding: 15px;
@@ -203,7 +222,7 @@ button:hover, header ul li:hover {
     font-size: 20px;
 }
 .btn:hover {
-    background: linear-gradient(#004e92, #000428);
+    background: linear-gradient(45deg,rgba(255,29,17,0.9),rgba(255,162,6,0.9));
     font-size: 23px;
 }
 
@@ -224,7 +243,7 @@ button:hover, header ul li:hover {
     left: 0;
     bottom: 0;
     width: 100%;
-    background:  linear-gradient(45deg,rgba(0, 4, 40, 0.9),rgba(0, 78, 146, 0.9));
+    background:  linear-gradient(45deg,rgba(255,29,17,0.9),rgba(255,162,6,0.9));
     color: white;
     text-align: center;
 }
@@ -237,10 +256,10 @@ button:hover, header ul li:hover {
   margin: 10px 10px;
   padding-bottom: 5px;
   text-align: center;
+  font-size: 12px;
   font-weight: bold;
   display: none;
 }
-
 .footer-sosyal-ikon {
     width: 100%;
     height: auto;
@@ -262,7 +281,11 @@ button:hover, header ul li:hover {
   font-size: 27px;
   color: white;
 }
-@media (min-width: 825px) {
+.footer-sosyal-ikon ul li a:hover{
+  color: black;
+  transition: all 0.2s linear;
+}
+@media (min-width: 625px) {
   .footer-sosyal-ikon ul{
     float: right;
   }

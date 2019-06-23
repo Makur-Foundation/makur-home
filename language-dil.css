@@ -12,7 +12,12 @@
 .dropdown-content {
   display: none;
   position: absolute;
-  background: linear-gradient(45deg,rgba(0, 4, 40, 0.9),rgba(0, 78, 146, 0.9));
+  background: black;
+  border-color: #ff4d0d;
+  border-style: solid;
+  border-width: 2px;
+  border-bottom-left-radius: 14px;
+  border-bottom-right-radius: 14px;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;

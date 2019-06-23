@@ -4,7 +4,7 @@ body
   text-align: center;
   padding: 0;
   font-family: 'Raleway', sans-serif;
-  background: linear-gradient(45deg,rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)), url(resimler/arkaplan.gif) no-repeat center center fixed;
+  background: linear-gradient(45deg,rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)), url(resimler/arkaplan.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -19,7 +19,7 @@ header
   top: 0;
   left:0;
   padding: 0 100px;
-  background: linear-gradient(45deg,rgba(0, 4, 40, 0.9),rgba(0, 78, 146, 0.9));
+  background: linear-gradient(45deg,rgba(255,29,17,0.9),rgba(255,162,6,0.9));
   width: 100%;
   box-sizing: border-box;
 }
@@ -85,7 +85,7 @@ header nav ul li a
       position: fixed;
       width: 100%;
       height: calc(100vb - 50px);
-      background: linear-gradient(45deg,rgba(0, 4, 40, 0.9),rgba(0, 78, 146, 0.9));
+      background: linear-gradient(45deg,rgba(255,29,17,0.9),rgba(255,162,6,0.9));
       top: 65px;
       Left: -100%;
       transition: 0,5s;
@@ -103,14 +103,43 @@ header nav ul li a
     }
 
 }
-
+/*a.button {
+  cursor: pointer;
+  outline: none;
+    &.outline {
+        position: relative;
+        z-index: 3;
+        background: transparent;
+        color: #ff4d0d;
+        font-size: 14px;
+        border-color: #ff4d0d;
+        border-style: solid;
+        border-width: 2px;
+        border-radius: 22px;
+        padding: 10px 40px;
+        text-transform: uppercase;
+        transition: all 0.2s linear;
+        a {
+            text-decoration: none;
+        }
+    }
+    &.outline:hover {
+        color: white;
+        background: #ff4d0d;
+        border-color: white;
+        transition: all 0.2s linear;
+    }
+}*/
 a.button {
-    border: none;
+    border-color: #ff4d0d;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 22px;
     outline: 0;
     display: inline-block;
     padding: 8px;
-    color: white;
-    background: linear-gradient(45deg,rgba(0, 4, 40, 0.9),rgba(0, 78, 146, 0.9));
+    color: #ff4d0d;
+    background: none;
     border-radius: 8px;
     text-align: center;
     cursor: pointer;
@@ -123,16 +152,20 @@ a.button {
 }
 
 a.button:hover {
-  background: linear-gradient(#004e92, #000428);
   font-size: 20px;
+  color: black;
+  background: linear-gradient(45deg,rgba(255,29,17,0.9),rgba(255,162,6,0.9));
+  border: none;
+  transition: all 0.2s linear;
 }
 a.1buton {
     text-decoration: none;
     font-size: 22px;
     color: #FF8000;
 }
-button:hover, header ul li:hover {
-    opacity: 0.7;
+button:hover, header ul li a:hover {
+  color: black;
+  transition: all 0.2s linear;
 }
 .hos {
   font-size: 60px;
@@ -152,7 +185,7 @@ h3 {
 @media (max-width: 560px)
 {
   .hos {
-    font-size: 40px;
+    font-size: 35px;
   }
   h3 {
     font-size: 15px;
@@ -164,7 +197,7 @@ h3 {
     left: 0;
     bottom: 0;
     width: 100%;
-    background:  linear-gradient(45deg,rgba(0, 4, 40, 0.9),rgba(0, 78, 146, 0.9));
+    background:  linear-gradient(45deg,rgba(255,29,17,0.9),rgba(255,162,6,0.9));
     color: white;
     text-align: center;
 }
@@ -177,9 +210,11 @@ h3 {
   margin: 10px 10px;
   padding-bottom: 5px;
   text-align: center;
+  font-size: 12px;
   font-weight: bold;
   display: none;
 }
+
 .footer-sosyal-ikon {
     width: 100%;
     height: auto;
@@ -201,7 +236,11 @@ h3 {
   font-size: 27px;
   color: white;
 }
-@media (min-width: 992px) {
+.footer-sosyal-ikon ul li a:hover{
+  color: black;
+  transition: all 0.2s linear;
+}
+@media (min-width: 692px) {
   .footer-sosyal-ikon ul{
     float: right;
   }
