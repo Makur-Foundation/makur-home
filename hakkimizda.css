@@ -24,7 +24,7 @@
   overflow: hidden;
 }
 .hakkimizda li:nth-child(1){
-  background: url(resimler/egewithcomputer.jpeg);
+  background: url(resimler/egewithcomputer.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -34,7 +34,7 @@
   background-position: center;
 }
 .hakkimizda li:nth-child(2){
-  background: url(resimler/makerbirligitopluluk.jpeg);
+  background: url(resimler/makerbirligitopluluk.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -44,7 +44,7 @@
   background-position: center;
 }
 .hakkimizda li:nth-child(5){
-  background: url(resimler/merkuros.jpeg);
+  background: url(resimler/merkuros.jpg);
   background-size: cover;
   background-position: center;
 }
