@@ -19,11 +19,11 @@
     </div>
     <nav>
       <ul>
-        <li><a href="https://os.merkur.xyz"><i class="fa fa-linux" aria-hidden="true"></i>  MerkürOS</a></li>
+        <li><a href="https://os.mercode.org"><i class="fa fa-linux" aria-hidden="true"></i>  Linux</a></li>
         <li><a href="about.html"><i class="fa fa-users" aria-hidden="true"></i>  About</a></li>
         <li><a href="projects.html"><i class="fa fa-tasks" aria-hidden="true"></i>  Projects</a></li>
         <li><a href="contact.html"><i class="fa fa-envelope " aria-hidden="true"></i>  Contact</a></li>
-        <li><a href="login.html"><i class="fa fa-sign-in" aria-hidden="true"></i>  Login</a></li>
+        <li><a href="https://hub.mercode.org"><i class="fa fa-sign-in" aria-hidden="true"></i>  Login</a></li>
         <div class="dropdown">
           <li><a class="dropbtn"><i class="fa fa-globe" aria-hidden="true"></i>  English   <i class="fa fa-caret-down" aria-hidden="true"></i></a></li>
           <div class="dropdown-content">
@@ -45,7 +45,28 @@
   </script>
 
   <body>
-    <iframe class="btn animated jackInTheBox"src="https://docs.google.com/forms/d/e/1FAIpQLScGK6wtf8ExWWd5OmJfpuPrEdHvhioSKGtCZ7g3PpQZI3h2Vg/viewform?embedded=true" width="640" height="1457" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+    <form method="POST" action="https://formspree.io/tan@designble.com">
+      <div class="txtb">
+        <label><span>Name</span>
+        <input type="text" name="name" placeholder="Write your name (self-explanatory)"></label>
+      </div>
+      <div class="txtb">
+        <label><span>E-mail</span>
+        <input type="email" name="replyto" placeholder="Write your e-mail"></label>
+      </div>
+      <div class="txtb">
+          <label><span>Phone</span>
+          <input type="number" name="phone" placeholder="Write your phone number (not required)"></label>
+      </div>
+
+
+
+      <div class="txtb">
+          <label><span>Message</span>
+          <textarea name="message" placeholder="Now let's come to the conclusion"></textarea></label>
+      </div>
+      <button class="formbutton" type="submit"><i class="fa fa-send" aria-hidden="true" style="font-size: 22px;"></i><a class="sendit">   Send It!</a></button>
+    </form>
     <!--
     <div class="wrapper">
       <form class="contact-form" action="iletisimformu.php" method="post">

@@ -249,3 +249,14 @@ h3 {
     float: left;
   }
 }
+@media (max-width: 335px) {
+  .footer-sosyal-ikon ul li{
+    display: inline-block;
+    width: 50px;
+    height: 10px;
+    margin: 9px 2px;
+  }
+  .footer-sosyal-ikon ul li a{
+    font-size: 20px;
+  }
+}
