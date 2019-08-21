@@ -141,6 +141,36 @@ button:hover, header ul li a:hover {
   color: black;
   transition: all 0.2s linear;
 }
+
+a.button2 {
+    border-color: #043c6c;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 22px;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: #043c6c;
+    background: none;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    width: 150px;
+    font-size: 18px;
+    margin: 20px 20px;
+
+}
+
+a.button2:hover {
+  font-size: 20px;
+  color: white;
+  background: linear-gradient(45deg,rgba(0, 4, 40, 0.9),rgba(0, 78, 146, 0.9));
+  border: none;
+  transition: all 0.2s linear;
+}
+
 .mo {
   font-size: 40px;
   font-weight: 1000;

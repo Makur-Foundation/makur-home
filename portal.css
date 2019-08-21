@@ -1,6 +1,25 @@
+/*The Legend Reborn*/
+header
+{
+  z-index: 10;
+  position:fixed;
+  top: 0;
+  left:0;
+  padding: 0 100px;
+  background: linear-gradient(45deg,rgba(0, 4, 40, 0.9),rgba(0, 78, 146, 0.9));
+  width: 100%;
+  box-sizing: border-box;
+}
+header .logo
+{
+  height: 40px;
+  line-height: 40px;
+  float: left;
+	padding-left: 10px;
+}
 body {
 	font-family: 'raleway', sans-serif;
-	background: #0b0b0b;
+	background: linear-gradient(45deg,rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)), url(resimler/arkaplan6.jpg) no-repeat center center fixed;
 }
 a { text-decoration: none }
 .conatiner {
