@@ -143,14 +143,14 @@ button:hover, header ul li a:hover {
 }
 
 a.button2 {
-    border-color: #043c6c;
+    border-color: white;
     border-style: solid;
     border-width: 2px;
     border-radius: 22px;
     outline: 0;
     display: inline-block;
     padding: 8px;
-    color: #043c6c;
+    color: white;
     background: none;
     border-radius: 8px;
     text-align: center;
