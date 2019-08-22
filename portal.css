@@ -19,7 +19,7 @@ header .logo
 }
 body {
 	font-family: 'raleway', sans-serif;
-	background: linear-gradient(45deg,rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)), url(resimler/arkaplan6.jpeg) no-repeat center center fixed;
+	background: linear-gradient(45deg,rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)), url(resimler/arkaplan6.jpg) no-repeat center center fixed;
 }
 a { text-decoration: none }
 .conatiner {
