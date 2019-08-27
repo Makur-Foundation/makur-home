@@ -1,21 +1,107 @@
 /*The Legend Reborn*/
-header
+.portalheader
 {
   z-index: 10;
   position:fixed;
   top: 0;
   left:0;
-  padding: 0 100px;
+  padding: 0;
   background: linear-gradient(45deg,rgba(0, 4, 40, 0.9),rgba(0, 78, 146, 0.9));
   width: 100%;
   box-sizing: border-box;
 }
-header .logo
+.portalheader .logo
 {
   height: 40px;
   line-height: 40px;
   float: left;
 	padding-left: 10px;
+}
+.portalheader nav
+{
+  float:right;
+}
+.portalheader nav ul
+{
+  margin: 0;
+  margin-right: 20px;
+  padding: 0;
+  display: flex;
+}
+.portalheader nav ul li
+{
+  list-style: none;
+  color: #fff;
+  font-weight: 1000;
+
+}
+.portalheader nav ul li a
+{
+  height: 40px;
+  line-height: 40px;
+  padding: 0 10px;
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+}
+.portalheader nav ul li a:hover
+{
+  color: black;
+}
+.menu-toggle
+{
+    color: #fff;
+    padding: 10px 10px;
+    float: right;
+    line-height: 70px;
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+@media (max-width: 1050px)
+{
+    .portalheader
+    {
+      padding: 0 20px;
+    }
+     .portalheader .logo
+    {
+      padding-top: 0;
+    }
+    .menu-toggle
+    {
+      display: block;
+    }
+    .portalheader nav
+    {
+
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(45deg,rgba(0, 4, 40, 0.9),rgba(0, 78, 146, 0.9));
+      Left: -100%;
+      transition: 0,5s;
+      top: 40px;
+
+    }
+    .portalheader nav.active
+    {
+      Left: 0;
+    }
+    .portalheader nav ul
+    {
+      display: block;
+      text-align: center;
+
+    }
+    .portalheader nav ul li {
+      margin-top: 50px;
+    }
+    .portalheader nav ul li a{
+      font-size: 30px;
+    }
+
 }
 body {
   padding: 0;
