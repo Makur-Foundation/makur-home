@@ -84,7 +84,7 @@ header nav ul li a
 
       position: fixed;
       width: 100%;
-      height: calc(100vb - 50px);
+      /*height: calc(100vb - 50px);*/
       background: linear-gradient(45deg,rgba(255,29,17,0.9),rgba(255,162,6,0.9));
       top: 65px;
       Left: -100%;
