@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel public/index.pug",
-    "build": "parcel build public/index.pug"
+    "build": "rm -rf dist && parcel build public/index.pug && sed 's|\"/|\"https://mercode.org/|g' -i dist/portal.html"
   },
   "repository": {
     "type": "git",
