@@ -1,4 +1,5 @@
-.hakkimizda {
+
+.projeler {
   position: absolute;
   top: 50px;
   bottom: 0px;
@@ -10,11 +11,11 @@
   padding: 0;
 }
 
-.hakkimizda li {
+.projeler li {
   list-style: none;
   position: relative;
-  width: 20%;
-  height: 100%;
+  width: 100%;
+  height: 27%;
   border-right: 1px solid #000;
   float: left;
   box-sizing: border-box;
@@ -22,40 +23,40 @@
   text-align: center;
   overflow: hidden;
 }
-.hakkimizda li:nth-child(1){
-  background: url(../assets/ovhserver.jpeg);
+.projeler li:nth-child(1){
+  background: url(resimler/merzeroproject.png);
   background-size: cover;
   background-position: center;
 }
-.hakkimizda li:nth-child(4){
-  background: url(../assets/makerbirligitopluluk.jpg);
+.projeler li:nth-child(4){
+  background: url(resimler/designbleteam.jpeg);
   background-size: cover;
   background-position: center;
 }
-.hakkimizda li:nth-child(2){
-  background: url(../assets/komunite.png);
+.projeler li:nth-child(2){
+  background: url(resimler/mbnetworkreklam.jpg);
   background-size: cover;
   background-position: center;
 }
-.hakkimizda li:nth-child(3){
-  background: url(../assets/moneysharing.jpg);
+.projeler li:nth-child(3){
+  background: url(resimler/merkuros2.jpg);
   background-size: cover;
   background-position: center;
 }
-.hakkimizda li:nth-child(5){
-  background: url(../assets/merkuros.jpg);
+.projeler li:nth-child(5){
+  background: url(resimler/merkuros.jpg);
   background-size: cover;
   background-position: center;
 }
-.hakkimizda:hover li {
-  width: 10%;
+.projeler:hover li {
+  height: 10%;
 }
 
-.hakkimizda li:hover {
-  width: 60%;
+.projeler li:hover {
+  height: 70%;
 }
 
-.hakkimizda li .konu {
+.projeler li .konu {
   position: absolute;
   bottom: -100%;
   left: 0;
@@ -65,13 +66,13 @@
   color: #fff;
   opacity: 0;
 }
-.hakkimizda li:hover .konu {
+.projeler li:hover .konu {
   bottom: 0;
   transition: 0.2s;
   transition-delay: 0.5s;
   opacity: 1;
 }
-.hakkimizda li .konubaslik {
+.projeler li .konubaslik {
   position: absolute;
   display: block;
   top: 0;
@@ -82,7 +83,7 @@
   color: #fff;
   opacity: 0;
 }
-.hakkimizda li:hover .konubaslik {
+.projeler li:hover .konubaslik {
   display: none;
   transition: 0.2s;
   transition-delay: 0.5s;
