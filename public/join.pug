@@ -1,0 +1,34 @@
+extends main.pug
+
+block css
+  <link rel="stylesheet" type="text/css" href="css/stiller.css">
+  <link rel="stylesheet" type="text/css" href="css/iletisimbody.css">
+
+block content
+  <form method="POST" action="https://formspree.io/tan@designble.com">
+    <div class="txtb">
+      <label><span>Name</span>
+        <input required type="text" name="name" placeholder="Write your name (required)"></label>
+    </div>
+
+    <div class="txtb">
+      <label><span>E-mail</span>
+        <input required type="email" name="replyto" placeholder="Write your e-mail (required)"></label>
+    </div>
+
+    <div class="txtb">
+      <label><span>Phone</span>
+        <input required type="number" name="phone" placeholder="Write your phone number (required)"></label>
+    </div>
+    
+    <div class="txtb">
+      <label><span>Profession</span>
+        <input required type="text" name="name" placeholder="Describe your current profession (required)"></label>
+    </div>
+
+    <div class="txtb">
+      <label><span>CV</span>
+        <textarea name="message" placeholder="Let's talk about <u>you</u>."></textarea></label>
+    </div>
+    <button class="formbutton" type="submit"><i class="fa fa-handshake-o" aria-hidden="true" style="font-size: 22px;"></i><a class="sendit">   Join Us!</a></button>
+  </form>
