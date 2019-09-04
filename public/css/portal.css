@@ -106,7 +106,7 @@
 body {
   padding: 0;
 	font-family: 'Raleway', sans-serif;
-	background: linear-gradient(45deg,rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)), url(resimler/arkaplan6.jpg) no-repeat center center fixed;
+	background: linear-gradient(45deg,rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)), url(../assets/arkaplan6.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -188,51 +188,51 @@ a { text-decoration: none }
 	font-weight: 100;
 }
 .one {
-	background: url('resimler/raspberrypiserver.jpeg');
+	background: url('../assets/raspberrypiserver.jpeg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 }
 
 .two {
-	background: url('resimler/linuxterminal.jpg');
+	background: url('../assets/linuxterminal.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 }
 .three {
-	background: url('resimler/frchilal.jpg');
+	background: url('../assets/frchilal.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 }
 
 .five {
-	background: url('resimler/merkurosfootage.jpg');
+	background: url('../assets/merkurosfootage.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 }
 .six {
-	background: url('resimler/robotikcagan.jpeg');
+	background: url('../assets/robotikcagan.jpeg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 }
 .seven {
-	background: url('resimler/teslacarardatan.jpeg');
+	background: url('../assets/teslacarardatan.jpeg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 }
 .eight {
-	background: url('resimler/3ddesignedthing.jpg');
+	background: url('../assets/3ddesignedthing.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 }
 .nine {
-	background: url('resimler/arduinowallpaper.jpeg');
+	background: url('../assets/arduinowallpaper.jpeg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;

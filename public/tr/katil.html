@@ -36,7 +36,7 @@
     </nav>
     <div class="menu-toggle"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
   </header>
-  <script src="jquery-3.3.1.js"></script>
+  <script src="../jquery-3.3.1.js"></script>
   <script type="text/javascript">
     $(document).ready(function() {
       $('.menu-toggle').click(function() {
@@ -57,16 +57,17 @@
       </div>
       <div class="txtb">
           <label><span>Telefon</span>
-          <input type="number" name="phone" placeholder="Telefon numaranı yaz (gerekmez)."></label>
+          <input type="number" name="phone" placeholder="Telefon numaranı yaz."></label>
       </div>
-
-
-
       <div class="txtb">
-          <label><span>Mesaj</span>
-          <textarea name="message" placeholder="Haydi şimdi sadede gelelim."></textarea></label>
+        <label><span>Alan</span>
+        <input type="text" name="name" placeholder="Uzmanlık alan(lar)ın ne?"></label>
       </div>
-      <button class="formbutton" type="submit"><i class="fa fa-send" aria-hidden="true" style="font-size: 22px;"></i><a class="sendit">   Yolla Gitsin!</a></button>
+      <div class="txtb">
+          <label><span>CV</span>
+          <textarea name="message" placeholder="Şimdi <u>senin</u> hakkında konuşalım."></textarea></label>
+      </div>
+      <button class="formbutton" type="submit"><i class="fa fa-handshake-o" aria-hidden="true" style="font-size: 22px;"></i><a class="sendit">  Bize Katıl!</a></button>
     </form>
     <!--
     <div class="wrapper">
