@@ -28,6 +28,7 @@
     "jquery": "^3.4.1",
     "parcel-bundler": "https://github.com/mkg20001/parcel/releases/download/middleware-backport/parcel-bundler-1.12.3.tgz",
     "parcel-plugin-google-fonts": "^0.1.3",
+    "parcel-plugin-imagemin": "^3.0.0",
     "parcel-plugin-strip-index-html": "^0.1.2"
   },
   "devDependencies": {
