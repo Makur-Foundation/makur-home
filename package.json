@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/mercode-org/www.mercode.org#readme",
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.10.2",
+    "fontawesome-4.7": "^4.7.0",
     "jquery": "^3.4.1",
     "parcel-bundler": "https://github.com/mkg20001/parcel/releases/download/middleware-backport/parcel-bundler-1.12.3.tgz",
     "parcel-plugin-google-fonts": "^0.1.3",
