@@ -1,0 +1,78 @@
+<!doctype html>
+head
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta charset="utf-8">
+  <title>Mercode</title>
+
+  <link rel="stylesheet" type="text/css" href="css/stiller.css">
+  <link rel="stylesheet" type="text/css" href="css/animate.css">
+  <link rel="stylesheet" type="text/css" href="css/iletisimbody.css">
+  <link rel="stylesheet" type="text/css" href="css/language-dil.css">
+  
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/toggleNav.js"></script>
+body
+  <header>
+    <div>
+      <div class="logo animated bounce"><a href="https://mercode.org/"><img src="resimler/ikonbeyaz.svg" style="width:auto;height:40px;padding-top:6px;" alt="***MERCODE"></a></div>
+      <div class="logo"><a href="https://mercode.org/"><img src="resimler/yazibeyaz.png" style="width:auto;height:23px;padding-top:14px;margin-left: 12px;" alt=".ORG***"></a></div>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="https://os.mercode.org"><i class="fa fa-linux" aria-hidden="true"></i> Linux</a></li>
+        <li><a href="about.html"><i class="fa fa-users" aria-hidden="true"></i> About</a></li>
+        <li><a href="projects.html"><i class="fa fa-tasks" aria-hidden="true"></i> Projects</a></li>
+        <li><a href="contact.html"><i class="fa fa-envelope " aria-hidden="true"></i> Contact</a></li>
+        <li><a href="https://hub.mercode.org"><i class="fa fa-sign-in" aria-hidden="true"></i> Login</a></li>
+        <div class="dropdown">
+          <li><a class="dropbtn"><i class="fa fa-globe" aria-hidden="true"></i> English <i class="fa fa-caret-down" aria-hidden="true"></i></a></li>
+          <div class="dropdown-content">
+            <a href="./index.html">English</a>
+            <a href="tr/index.html">Türkçe</a>
+          </div>
+        </div>
+      </ul>
+    </nav>
+    <div class="menu-toggle"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
+  </header>
+  
+  block content
+
+  <form method="POST" action="https://formspree.io/tan@designble.com">
+    <div class="txtb">
+      <label><span>Name</span>
+        <input type="text" name="name" placeholder="Write your name (required)"></label>
+    </div>
+
+    <div class="txtb">
+      <label><span>E-mail</span>
+        <input type="email" name="replyto" placeholder="Write your e-mail (required)"></label>
+    </div>
+
+    <div class="txtb">
+      <label><span>Phone</span>
+        <input type="number" name="phone" placeholder="Write your phone number (not required)"></label>
+    </div>
+
+    <div class="txtb">
+      <label><span>Message</span>
+        <textarea name="message" placeholder="Now let's come to the conclusion."></textarea></label>
+    </div>
+    <button class="formbutton" type="submit"><i class="fa fa-send" aria-hidden="true" style="font-size: 22px;"></i><a class="sendit"> Send It!</a></button>
+  </form>
+  
+  <div class="footer">
+    <div class="footer-copyright">
+      <p>Copyleft 2018-2019 Merkür Foundation - Protected by GNU/GPL</p>
+    </div>
+    <div class="footer-sosyal-ikon">
+      <div class="footer-sosyal-ikon">
+        <ul>
+          <li><a href="https://www.facebook.com/mercode"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+          <li><a href="https://twitter.com/mercodeorg"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+          <li><a href="https://github.com/mercode-org"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.linkedin.com/company/mercode-org/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
