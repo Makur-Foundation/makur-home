@@ -14,44 +14,47 @@ head
 
   <script src="./js/main.js"></script>
 body
-  <header>
-    <div>
-      <div class="logo animated bounce"><a href="https://mercode.org/"><img src="assets/ikonbeyaz.svg" style="width:auto;height:40px;padding-top:6px;" alt="***MERCODE"></a></div>
-      <div class="logo"><a href="https://mercode.org/"><img src="assets/yazibeyaz.png" style="width:auto;height:23px;padding-top:14px;margin-left: 12px;" alt=".ORG***"></a></div>
-    </div>
-    <nav>
-      <ul>
-        <li><a href="https://os.mercode.org"><i class="fa fa-linux" aria-hidden="true"></i> Linux</a></li>
-        <li><a href="about.pug"><i class="fa fa-users" aria-hidden="true"></i> About</a></li>
-        <li><a href="#projects.html"><i class="fa fa-tasks" aria-hidden="true"></i> Projects</a></li>
-        <li><a href="contact.pug"><i class="fa fa-envelope " aria-hidden="true"></i> Contact</a></li>
-        <li><a href="https://hub.mercode.org"><i class="fa fa-sign-in" aria-hidden="true"></i> Login</a></li>
-        <div class="dropdown">
-          <li><a class="dropbtn"><i class="fa fa-globe" aria-hidden="true"></i> English <i class="fa fa-caret-down" aria-hidden="true"></i></a></li>
-          <div class="dropdown-content">
-            <a href="./index.pug">English</a>
-            <a href="#tr/index.html">Türkçe</a>
-          </div>
-        </div>
-      </ul>
-    </nav>
-    <div class="menu-toggle"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
-  </header>
-  
-  block content
-  
-  <div class="footer">
-    <div class="footer-copyright">
-      <p>Copyleft 2018-2019 Merkür Foundation - Protected by GNU/GPL</p>
-    </div>
-    <div class="footer-sosyal-ikon">
-      <div class="footer-sosyal-ikon">
-        <ul>
-          <li><a href="https://www.facebook.com/mercode"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-          <li><a href="https://twitter.com/mercodeorg"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-          <li><a href="https://github.com/mercode-org"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-          <li><a href="https://www.linkedin.com/company/mercode-org/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-        </ul>
+  block header
+    <header>
+      <div>
+        <div class="logo animated bounce"><a href="https://mercode.org/"><img src="assets/ikonbeyaz.svg" style="width:auto;height:40px;padding-top:6px;" alt="***MERCODE"></a></div>
+        <div class="logo"><a href="https://mercode.org/"><img src="assets/yazibeyaz.png" style="width:auto;height:23px;padding-top:14px;margin-left: 12px;" alt=".ORG***"></a></div>
       </div>
-    </div>
+      <nav>
+        <ul>
+          <li><a href="https://os.mercode.org"><i class="fa fa-linux" aria-hidden="true"></i> Linux</a></li>
+          <li><a href="about.pug"><i class="fa fa-users" aria-hidden="true"></i> About</a></li>
+          <li><a href="projects.pug"><i class="fa fa-tasks" aria-hidden="true"></i> Projects</a></li>
+          <li><a href="contact.pug"><i class="fa fa-envelope " aria-hidden="true"></i> Contact</a></li>
+          <li><a href="https://hub.mercode.org"><i class="fa fa-sign-in" aria-hidden="true"></i> Login</a></li>
+          <li style="display: none"><a href="portal.pug">PARCEL BUGFIX</a></li>
+          <div class="dropdown">
+            <li><a class="dropbtn"><i class="fa fa-globe" aria-hidden="true"></i> English <i class="fa fa-caret-down" aria-hidden="true"></i></a></li>
+            <div class="dropdown-content">
+              <a href="./index.pug">English</a>
+              <a href="#tr/index.html">Türkçe</a>
+            </div>
+          </div>
+        </ul>
+      </nav>
+      <div class="menu-toggle"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
+    </header>
+    
+  block content
+
+  block footer
+    <div class="footer">
+      <div class="footer-copyright">
+        <p>Copyleft 2018-2019 Merkür Foundation - Protected by GNU/GPL</p>
+      </div>
+      <div class="footer-sosyal-ikon">
+        <div class="footer-sosyal-ikon">
+          <ul>
+            <li><a href="https://www.facebook.com/mercode"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <li><a href="https://twitter.com/mercodeorg"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            <li><a href="https://github.com/mercode-org"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.linkedin.com/company/mercode-org/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>
+      </div>
   </div>
