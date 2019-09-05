@@ -1,42 +1,45 @@
 extends main.pug
 
 block css
-<link rel="stylesheet" type="text/css" href="css/stiller.css">
-<link rel="stylesheet" type="text/css" href="css/projeler.css">
+  <link rel="stylesheet" type="text/css" href="css/stiller.css">
+  <link rel="stylesheet" type="text/css" href="css/projeler.css">
 
 block content
-<ul class="projeler animated flash">
-  <li>
-    <div class="konu">
-      <!--<div projebaslik><img src="../assets/merzero.png" alt=""></div>-->
-      <div><img style="width: 40%;height: auto;" src="../assets/merzero.png" alt=""></div>
-      <p style="font-size: 14px;">Mercode's freedom-preferential alternative running, seeding and containing several projects, blogs and sites by providing a public Zeronet to the community members.</p>
-      <a href="#" class="button"><i class="fa fa-external-link-square " aria-hidden="true"></i> Enter</a>
-    </div>
-  </li>
-  <li>
-    <div class="konu">
-      <div><img style="width: 55%;height: auto; padding-top: 10px;" src="../assets/hub.mercode.png" alt=""></div>
-      <p style="font-size: 14px;">hub.mercode is a decentralized social network which is made by Mercode team forked from the zot protocol. At this network, every user has the permission of opening channels infinitively (depends to the status of the
-        server). Those channels can be a profile, infographic, forum, blog, wiki and more depending to the needs of the end user. Also there’re official channels opened by Mercode team for newbies to let them socialise.</p>
-      <a href="#" class="button"><i class="fa fa-external-link-square " aria-hidden="true"></i> Enter</a>
-    </div>
-  </li>
-  <li>
-    <div class="konu">
-      <div><img style="width: 45%;height: auto; padding-top: 10px;" src="../assets/meros.png" alt=""></div>
-      <p style="font-size: 14px;">MerOS is an Arch based, modern, apt and yaourt compatible, multi-platform, libertarian operating system. It’s development is started in Turkey by Tan Siret AKINCI in order to replace pro-nationalist operating systems
-        of the government but later it’s development is given to Merith. Now it is the main project of the Mercode team as Merith is the current project leader due to his commits. It’s gonna finish very soon as new features are coming everyday. Until
-        that, you can test MerOS at Mercode stands during open source exhibitions.</p>
-      <a href="#" class="button"><i class="fa fa-external-link-square " aria-hidden="true"></i> Enter</a>
-    </div>
-  </li>
-  <li>
-    <div class="konu">
-      <div><img style="width: 45%;height: auto; padding-top: 10px;" src="../assets/hackup.png" alt=""></div>
-      <p style="font-size: 14px;">Using Italian Scentific High School as its hq, HackUp is an IT club made up with high school and university students around The World.</p>
-      <a href="#" class="button"><i class="fa fa-external-link-square " aria-hidden="true"></i> Enter</a>
-    </div>
-  </li>
-
-</ul>
+  ul.projeler.animated.flash
+    li
+      .konu
+        // <div projebaslik><img src="assets/merzero.png" alt=""></div>
+        div
+          img(style='width: 40%;height: auto;', src='assets/merzero.png', alt='')
+        p(style='font-size: 14px;')
+          | Mercode&apos;s freedom-preferential alternative running, seeding and containing several projects, blogs and sites by providing a public Zeronet to the community members.
+        a.button(href='#')
+          i.fa.fa-external-link-square(aria-hidden='true')
+          |  Enter
+    li
+      .konu
+        div
+          img(style='width: 55%;height: auto; padding-top: 10px;', src='assets/hub.mercode.png', alt='')
+        p(style='font-size: 14px;')
+          | hub.mercode is a decentralized social network which is made by Mercode team forked from the zot protocol. At this network, every user has the permission of opening channels infinitively (depends to the status of the server). Those channels can be a profile, infographic, forum, blog, wiki and more depending to the needs of the end user. Also there&rsquo;re official channels opened by Mercode team for newbies to let them socialise.
+        a.button(href='#')
+          i.fa.fa-external-link-square(aria-hidden='true')
+          |  Enter
+    li
+      .konu
+        div
+          img(style='width: 45%;height: auto; padding-top: 10px;', src='assets/meros.png', alt='')
+        p(style='font-size: 14px;')
+          | MerOS is an Arch based, modern, apt and yaourt compatible, multi-platform, libertarian operating system. It&rsquo;s development is started in Turkey by Tan Siret AKINCI in order to replace pro-nationalist operating systems of the government but later it&rsquo;s development is given to Merith. Now it is the main project of the Mercode team as Merith is the current project leader due to his commits. It&rsquo;s gonna finish very soon as new features are coming everyday. Until that, you can test MerOS at Mercode stands during open source exhibitions.
+        a.button(href='#')
+          i.fa.fa-external-link-square(aria-hidden='true')
+          |  Enter
+    li
+      .konu
+        div
+          img(style='width: 45%;height: auto; padding-top: 10px;', src='assets/hackup.png', alt='')
+        p(style='font-size: 14px;')
+          | Using Italian Scentific High School as its hq, HackUp is an IT club made up with high school and university students around The World.
+        a.button(href='#')
+          i.fa.fa-external-link-square(aria-hidden='true')
+          |  Enter

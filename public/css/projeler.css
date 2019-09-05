@@ -24,27 +24,27 @@
   overflow: hidden;
 }
 .projeler li:nth-child(1){
-  background: url(resimler/merzeroproject.png);
+  background: url(../assets/merzeroproject.png);
   background-size: cover;
   background-position: center;
 }
 .projeler li:nth-child(4){
-  background: url(resimler/designbleteam.jpeg);
+  background: url(../assets/designbleteam.jpeg);
   background-size: cover;
   background-position: center;
 }
 .projeler li:nth-child(2){
-  background: url(resimler/mbnetworkreklam.jpg);
+  background: url(../assets/mbnetworkreklam.jpg);
   background-size: cover;
   background-position: center;
 }
 .projeler li:nth-child(3){
-  background: url(resimler/merkuros2.jpg);
+  background: url(../assets/merkuros2.jpg);
   background-size: cover;
   background-position: center;
 }
 .projeler li:nth-child(5){
-  background: url(resimler/merkuros.jpg);
+  background: url(../assets/merkuros.jpg);
   background-size: cover;
   background-position: center;
 }
