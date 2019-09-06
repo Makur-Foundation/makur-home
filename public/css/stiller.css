@@ -67,10 +67,11 @@ header nav ul li a
 }
 @media (max-width: 1050px)
 {
-    /*header
+      header
     {
       padding: 0 20px;
-    }*/
+      max-height: 65px;
+    }
      header .logo
     {
       padding-top: 6px;
@@ -78,6 +79,7 @@ header nav ul li a
     .menu-toggle
     {
       display: block;
+      padding-top: 0px;
     }
     header nav
     {

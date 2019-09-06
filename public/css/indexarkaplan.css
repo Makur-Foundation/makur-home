@@ -1,53 +1,49 @@
-body
-{
+body {
   margin-top: 100px;
   text-align: center;
   padding: 0;
   font-family: 'Raleway', sans-serif;
-  background: linear-gradient(45deg,rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)), url(../assets/arkaplan.jpg) no-repeat center center fixed;
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../assets/arkaplan.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
 }
 
-header
-{
+header {
   z-index: 10;
-  position:fixed;
+  position: fixed;
   top: 0;
-  left:0;
+  left: 0;
   padding: 0 100px;
-  background: linear-gradient(45deg,rgba(255,29,17,0.9),rgba(255,162,6,0.9));
+  background: linear-gradient(45deg, rgba(255, 29, 17, 0.9), rgba(255, 162, 6, 0.9));
   width: 100%;
   box-sizing: border-box;
 }
-header .logo
-{
+
+header .logo {
   height: 51px;
   line-height: 51px;
   float: left;
 }
-header nav
-{
-  float:right;
+
+header nav {
+  float: right;
 }
-header nav ul
-{
+
+header nav ul {
   margin: 0;
   padding: 0;
   display: flex;
 }
-header nav ul li
-{
+
+header nav ul li {
   list-style: none;
   color: #fff;
   font-weight: 1000;
-
 }
-header nav ul li a
-{
+
+header nav ul li a {
   height: 50px;
   line-height: 50px;
   padding: 0 20px;
@@ -55,54 +51,51 @@ header nav ul li a
   text-decoration: none;
 }
 
-.menu-toggle
-{
-    color: #fff;
-    padding: 20px 20px;
-    float: right;
-    line-height: 70px;
-    font-size: 25px;
-    cursor: pointer;
-    display: none;
+.menu-toggle {
+  color: #fff;
+  padding: 20px 20px;
+  float: right;
+  line-height: 70px;
+  font-size: 25px;
+  cursor: pointer;
+  display: none;
 }
-@media (max-width: 1050px)
-{
-    /*header
-    {
-      padding: 0 20px;
-    }*/
-     header .logo
-    {
-      padding-top: 6px;
-    }
-    .menu-toggle
-    {
-      display: block;
-    }
-    header nav
-    {
 
-      position: fixed;
-      width: 100%;
-      /*height: calc(100vb - 50px);*/
-      background: linear-gradient(45deg,rgba(255,29,17,0.9),rgba(255,162,6,0.9));
-      top: 65px;
-      Left: -100%;
-      transition: 0,5s;
+@media (max-width: 1050px) {
+  header {
+    padding: 0 20px;
+    max-height: 65px;
+  }
 
-    }
-    header nav.active
-    {
-      Left: 0;
-    }
-    header nav ul
-    {
-      display: block;
-      text-align: center;
+  header .logo {
+    padding-top: 6px;
+  }
 
-    }
+  .menu-toggle {
+    display: block;
+    padding-top: 0px;
+  }
 
+  header nav {
+    position: fixed;
+    width: 100%;
+    /*height: calc(100vb - 50px);*/
+    background: linear-gradient(45deg, rgba(255, 29, 17, 0.9), rgba(255, 162, 6, 0.9));
+    top: 65px;
+    Left: -100%;
+    transition: 0, 5s;
+  }
+
+  header nav.active {
+    Left: 0;
+  }
+
+  header nav ul {
+    display: block;
+    text-align: center;
+  }
 }
+
 /*a.button {
   cursor: pointer;
   outline: none;
@@ -131,42 +124,44 @@ header nav ul li a
     }
 }*/
 a.button {
-    border-color: #ff4d0d;
-    border-style: solid;
-    border-width: 2px;
-    border-radius: 22px;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: #ff4d0d;
-    background: none;
-    border-radius: 8px;
-    text-align: center;
-    cursor: pointer;
-    font-weight: bold;
-    text-decoration: none;
-    width: 150px;
-    font-size: 18px;
-    margin: 20px 20px;
-
+  border-color: #ff4d0d;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 22px;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: #ff4d0d;
+  background: none;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+  width: 150px;
+  font-size: 18px;
+  margin: 20px 20px;
 }
 
 a.button:hover {
   font-size: 20px;
   color: black;
-  background: linear-gradient(45deg,rgba(255,29,17,0.9),rgba(255,162,6,0.9));
+  background: linear-gradient(45deg, rgba(255, 29, 17, 0.9), rgba(255, 162, 6, 0.9));
   border: none;
   transition: all 0.2s linear;
 }
+
 a.1buton {
-    text-decoration: none;
-    font-size: 22px;
-    color: #FF8000;
+  text-decoration: none;
+  font-size: 22px;
+  color: #FF8000;
 }
+
 button:hover, header ul li a:hover {
   color: black;
   transition: all 0.2s linear;
 }
+
 .hos {
   font-size: 60px;
   font-weight: 1000;
@@ -176,37 +171,42 @@ button:hover, header ul li a:hover {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 h3 {
   font-size: 25;
   font-size: bold;
   text-align: center;
   color: white;
 }
-@media (max-width: 560px)
-{
+
+@media (max-width: 560px) {
   .hos {
     font-size: 35px;
   }
+
   h3 {
     font-size: 15px;
     margin: 15px 10px 10px;
   }
 }
+
 .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background:  linear-gradient(45deg,rgba(255,29,17,0.9),rgba(255,162,6,0.9));
-    color: white;
-    text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: linear-gradient(45deg, rgba(255, 29, 17, 0.9), rgba(255, 162, 6, 0.9));
+  color: white;
+  text-align: center;
 }
-.footer-copyright{
-    width: 100%;
-    height: auto;
-    margin: auto;
+
+.footer-copyright {
+  width: 100%;
+  height: auto;
+  margin: auto;
 }
-.footer-copyright p{
+
+.footer-copyright p {
   margin: 10px 10px;
   padding-bottom: 5px;
   text-align: center;
@@ -216,47 +216,54 @@ h3 {
 }
 
 .footer-sosyal-ikon {
-    width: 100%;
-    height: auto;
-    margin: auto;
+  width: 100%;
+  height: auto;
+  margin: auto;
 }
 
-.footer-sosyal-ikon ul{
-    margin: 0px;
-    padding-bottom: 5px;
-    text-align: center;
+.footer-sosyal-ikon ul {
+  margin: 0px;
+  padding-bottom: 5px;
+  text-align: center;
 }
-.footer-sosyal-ikon ul li{
+
+.footer-sosyal-ikon ul li {
   display: inline-block;
   width: 50px;
   height: 10px;
   margin: 10px 10px;
 }
-.footer-sosyal-ikon ul li a{
+
+.footer-sosyal-ikon ul li a {
   font-size: 27px;
   color: white;
 }
-.footer-sosyal-ikon ul li a:hover{
+
+.footer-sosyal-ikon ul li a:hover {
   color: black;
   transition: all 0.2s linear;
 }
+
 @media (min-width: 692px) {
-  .footer-sosyal-ikon ul{
+  .footer-sosyal-ikon ul {
     float: right;
   }
-  .footer-copyright p{
+
+  .footer-copyright p {
     display: block;
     float: left;
   }
 }
+
 @media (max-width: 335px) {
-  .footer-sosyal-ikon ul li{
+  .footer-sosyal-ikon ul li {
     display: inline-block;
     width: 50px;
     height: 10px;
     margin: 9px 2px;
   }
-  .footer-sosyal-ikon ul li a{
+
+  .footer-sosyal-ikon ul li a {
     font-size: 20px;
   }
 }
