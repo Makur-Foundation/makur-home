@@ -67,10 +67,10 @@ header nav ul li a
 }
 @media (max-width: 1050px)
 {
-    header
+    /*header
     {
       padding: 0 20px;
-    }
+    }*/
      header .logo
     {
       padding-top: 6px;
