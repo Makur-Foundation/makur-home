@@ -7,7 +7,7 @@
     "start": "parcel public/index.pug",
     "build": "rm -rf dist && parcel build public/index.pug && sed 's|\"/|\"https://mercode.org/|g' -i dist/portal.html",
     "update": "git pull && git clean -dxf && npm i && npm run build && rm -rf /var/www/mercode.org && mv dist /var/www/mercode.org",
-    "dev": "rm -rf yarn.lock node_modules .parcel-cache && yarn install && yarn link parcel && yarn link parcel-transformer-google-fonts && yarn link parcel-transformer-localize && yarn build"
+    "dev": "rm -rf yarn.lock node_modules .parcel-cache && yarn install && yarn link parcel-transformer-google-fonts && yarn link parcel-transformer-localize && yarn build"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/mercode-org/www.mercode.org#readme",
   "dependencies": {
+    "@parcel/transformer-pug": "https://github.com/mkg20001/parcel/releases/download/middleware-backport/parcel-transformer-pug-2.0.0-alpha.1.1.tgz",
     "core-js": "^3",
     "fontawesome-4.7": "^4.7.0",
     "jquery": "^3.4.1",
