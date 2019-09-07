@@ -2,13 +2,12 @@
   "name": "www.mercode.org",
   "version": "0.0.1",
   "description": "The https://mercode.org homepage",
-  "main": "public/index.pug",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel public/index.pug",
     "build": "rm -rf dist && parcel build public/index.pug && sed 's|\"/|\"https://mercode.org/|g' -i dist/portal.html",
     "update": "git pull && git clean -dxf && npm i && npm run build && rm -rf /var/www/mercode.org && mv dist /var/www/mercode.org",
-    "dev": "git clean -dxf && yarn install && yarn link parcel && yarn link parcel-transformer-google-fonts && yarn build"
+    "dev": "rm -rf yarn.lock node_modules .parcel-cache && yarn install && yarn link parcel && yarn link parcel-transformer-google-fonts && yarn build"
   },
   "repository": {
     "type": "git",
