@@ -35,5 +35,10 @@
     "@babel/core": "^7.6.0",
     "@babel/plugin-transform-runtime": "^7.6.0",
     "pug": "^2.0.4"
+  },
+  "parcel": {
+    "transforms": {
+      "*.pug": ["@parcel/transformer-pug"]
+    }
   }
 }
