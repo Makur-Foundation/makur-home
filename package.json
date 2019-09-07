@@ -28,7 +28,8 @@
     "fontawesome-4.7": "^4.7.0",
     "jquery": "^3.4.1",
     "parcel": "2.0.0-alpha.1.1",
-    "parcel-transformer-google-fonts": "^0.1.1"
+    "parcel-transformer-google-fonts": "^0.1.1",
+    "parcel-transformer-localize": "^0.0.1"
   },
   "disabled": {
     "parcel-plugin-google-fonts": "^0.1.3",
