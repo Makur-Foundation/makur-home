@@ -32,8 +32,8 @@
     "parcel-plugin-strip-index-html": "^0.1.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.5.5",
-    "@babel/plugin-transform-runtime": "^7.5.5",
+    "@babel/core": "^7.6.0",
+    "@babel/plugin-transform-runtime": "^7.6.0",
     "pug": "^2.0.4"
   }
 }
