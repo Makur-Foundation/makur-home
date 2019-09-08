@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/mercode-org/www.mercode.org#readme",
   "dependencies": {
-    "@parcel/transformer-pug": "https://github.com/mkg20001/parcel/releases/download/middleware-backport/parcel-transformer-pug-2.0.0-alpha.1.1.tgz",
+    "@parcel/transformer-pug": "https://github.com/mkg20001/parcel/releases/download/middleware-backport/pug-fixed-patched.tgz",
     "core-js": "^3",
     "fontawesome-4.7": "^4.7.0",
     "jquery": "^3.4.1",

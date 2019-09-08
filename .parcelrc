@@ -1,6 +1,9 @@
 {
   "extends": "@parcel/config-default",
   "transforms": {
+    "*.pug": [
+      "@parcel/transformer-pug"
+    ],
     "*.html": [
       "parcel-transformer-strip-index-html",
       "parcel-transformer-google-fonts",
