@@ -2,12 +2,12 @@
   "name": "www.mercode.org",
   "version": "0.0.1",
   "description": "The https://mercode.org homepage",
-  "main": "public/index.pug",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel public/index.pug",
     "build": "rm -rf dist && parcel build public/index.pug && sed 's|\"/|\"https://mercode.org/|g' -i dist/portal.html",
-    "update": "git pull && git clean -dxf && npm i && npm run build && rm -rf /var/www/mercode.org && mv dist /var/www/mercode.org"
+    "update": "git pull && git clean -dxf && npm i && npm run build && rm -rf /var/www/mercode.org && mv dist /var/www/mercode.org",
+    "dev": "rm -rf yarn.lock node_modules .parcel-cache && yarn install && yarn link parcel-transformer-google-fonts && yarn link parcel-transformer-localize && yarn build"
   },
   "repository": {
     "type": "git",
@@ -24,12 +24,17 @@
   },
   "homepage": "https://github.com/mercode-org/www.mercode.org#readme",
   "dependencies": {
+    "@parcel/transformer-pug": "https://github.com/mkg20001/parcel/releases/download/middleware-backport/pug-fixed-patched.tgz",
+    "core-js": "^3",
     "fontawesome-4.7": "^4.7.0",
     "jquery": "^3.4.1",
-    "parcel-bundler": "https://github.com/mkg20001/parcel/releases/download/middleware-backport/parcel-bundler-1.12.3.tgz",
-    "parcel-plugin-google-fonts": "^0.1.3",
+    "parcel": "2.0.0-alpha.1.1",
     "parcel-plugin-imagemin": "^3.0.0",
-    "parcel-plugin-strip-index-html": "^0.1.2"
+    "parcel-transformer-google-fonts": "^0.1.3",
+    "parcel-transformer-localize": "^0.1.0"
+  },
+  "disabled": {
+    "_core_js": "core-js@^3 is installed because workarround"
   },
   "devDependencies": {
     "@babel/core": "^7.6.0",
