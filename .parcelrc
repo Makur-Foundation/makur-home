@@ -7,7 +7,6 @@
     "*.html": [
       "parcel-transformer-strip-index-html",
       "parcel-transformer-google-fonts",
-      "parcel-transformer-localize",
       "@parcel/transformer-posthtml",
       "@parcel/transformer-html"
     ]
