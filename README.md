@@ -1,2 +1,2 @@
 # Mercode Home
-Homepage of mercode.org
+Homepage of mercode.org.
